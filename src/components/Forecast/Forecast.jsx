@@ -2,9 +2,27 @@ import React from "react";
 
 
 
-const Forecast=() => (
+function Forecast() {
+ 
+    <div className="day-card">
+      <img className="bts-icon" src="" alt="daily forecast icon" />
+      <h2 className="day">day</h2>
+      <div className="min-max">
+        <div className="max">
+          <div className="centeredIcon">
+            <p>icon</p>
+          </div>
+          <p className="DayMin-temperature">temp</p>
+        </div>
+        <div className="min">
+          <div className="centeredIcon">
+            <p>icon</p>
+          </div>
+          <p className="DayMin-temperature">temp</p>
+        </div>
+      </div>
+    </div>
+  
+}
 
-  <p className="Icon">hello EVERY BODJY IN THE PARTY</p>
-
-);
 export default Forecast ;

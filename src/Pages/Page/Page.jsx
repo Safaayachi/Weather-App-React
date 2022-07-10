@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 import useForecast from "../../hooks/useForecast";
-import CurrentWeatherDescription from "../CurrentWeatherDescription";
-import CurrentWeatherIcon from "../CurrentWeatherIcon";
-import CurrentWeatherTemperature from "../CurrentWeatherTemperature";
-import Forecast from "../Forecast";
-import Sunrise from "../Sunrise";
-import Sunset from "../Sunset";
-import Wind from "../Wind";
+import CurrentWeatherDescription from "../../components/CurrentWeatherDescription";
+import CurrentWeatherIcon from "../../components/CurrentWeatherIcon";
+import CurrentWeatherTemperature from "../../components/CurrentWeatherTemperature";
+import Forecast from "../../components/Forecast";
+import Sunrise from "../../components/Sunrise";
+import Sunset from "../../components/Sunset";
+import Wind from "../../components/Wind";
 import styles from "./Page.css"
 
 const Page = () => {
@@ -42,8 +42,9 @@ const Page = () => {
             </div>
           </div>
         </div>
-
+        <footer>
         <Forecast />
+        </footer>
       </div>
     </Fragment>
   );
